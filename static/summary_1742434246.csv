@@ -1,0 +1,2 @@
+num,pID,file_2,gt,updrs108,afTap,sTap,nqScore,typingSpeed,interkeyLatencySD,holdingLatencySD,releaseLatencySD,avgHoldDuration,backspaceRate,flightTimeVariability,dataset,file_1
+0,0,,,6,0,0,0.000000000,18.0000,1.252124844,1.145284448,1.323165024,0.222777778,0.166666667,0.131218387,,

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behavioral Biometrics - Parkinson's Disease Prediction using Keystroke Dynamics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> 
+</head>
+<body>
+    <h1>Behavioral Biometrics - Parkinson's Disease Prediction using Keystroke Dynamics</h1>
+    <p>Type for 1 Minute! Timer starts when you begin typing.</p>
+    <p>Time left: <span id="timer">60</span> seconds</p>
+    <textarea id="textbox" placeholder="Start typing..."></textarea><br>
+    <button id="submit" disabled>Submit</button>
+
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>
